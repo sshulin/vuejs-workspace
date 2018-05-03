@@ -1,6 +1,10 @@
 <template>
 		<div class="spl-root">
-			{{ data }}
+			<div class="spl-root__wrapper">
+				<div class="spl-root__data">
+					{{ data }}
+				</div>
+			</div>
 		</div>
 </template>
 

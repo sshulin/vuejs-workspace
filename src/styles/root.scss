@@ -1,0 +1,11 @@
+.spl-root {
+	margin: 20px auto 0;
+	width: 1020px;
+	&__wrapper {
+		background: #f0f0f0;
+		padding: 30px;
+	}
+	&__data {
+		font-size: 20px;
+	}
+}

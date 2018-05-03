@@ -6,7 +6,7 @@ function resolve (dir) {
 }
 
 module.exports = {
-	entry: ['./src/main.js'],
+	entry: ['./src/main.js', './src/styles/styles.scss'],
 	output: {
 		path: path.resolve(__dirname, './dist'),
 		filename: 'bundle.js'
